@@ -1,0 +1,36 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #3a3f58; /* צבע רקע כהה לסרגל */
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* הוספת צל */
+    margin: 0; /* ביטול רווחים */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #ffffff; /* צבע טקסט לבן */
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    color: #ffcc00; /* צבע מדגיש בגוון צהוב */
+  }
+  

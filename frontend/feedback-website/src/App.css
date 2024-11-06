@@ -1,0 +1,74 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f9; /* צבע רקע עדין */
+  color: #333;
+  margin: 0;
+  padding-top: 80px; /* רווח מלמעלה לסרגל הכלים */
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #2c3e50; /* צבע טקסט כותרת כהה */
+}
+
+input, textarea, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2c3e50; /* צבע כפתור כהה */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1a242f; /* צבע כהה יותר בהובר */
+}
+
+.navbar {
+  background-color: #2c3e50; /* צבע רקע לסרגל הכלים */
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* הוספת צל קל */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: #ffffff; /* צבע טקסט לבן */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-item a:hover {
+  color: #ffcc00; /* צבע מדגיש בגוון צהוב */
+}

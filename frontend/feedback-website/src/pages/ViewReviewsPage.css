@@ -1,0 +1,34 @@
+/* src/pages/ViewReviewsPage.css */
+.reviews-container {
+    max-width: 800px;
+    margin: 5rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #3a3f58;
+    margin-bottom: 1.5rem;
+  }
+  
+  .review-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .review-card p {
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  
+  .review-card strong {
+    color: #3a3f58;
+  }
+  

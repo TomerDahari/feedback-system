@@ -1,0 +1,33 @@
+/* src/pages/HomePage.css */
+.home-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  h1 {
+    color: #3a3f58;
+    margin-bottom: 1rem;
+    font-size: 2rem; /* גודל כותרת */
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 1rem;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem; /* גודל טקסט מעט גדול יותר */
+  }
+  
+  .home-image {
+    margin-top: 2rem;
+  }
+  
