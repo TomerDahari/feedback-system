@@ -1,0 +1,20 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# dotenv environment variables
+.env
+
+# Build files
+build/
+dist/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
