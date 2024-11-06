@@ -19,34 +19,30 @@ These instructions will help you set up the project on your local machine.
 ### Installation and Setup
 
 #### 1. Clone the Repository
-   ```bash
-   git clone https://github.com/TomerDahari/feedback-system.git
-   cd feedback-system
+git clone https://github.com/TomerDahari/feedback-system.git
+cd feedback-system
 
-
-
-
-Backend Setup
+#### 2. Backend Setup
 Navigate to the backend directory:
 cd backend
 
-Install dependencies:
+#### 3. Install dependencies:
 npm install
 Configure MongoDB connection:
 If using MongoDB Atlas or a remote MongoDB instance, update the MongoDB connection URL in server.js.
 
-Start the backend server:
+#### 4. Start the backend server:
 node server.js
 The backend server will run by default on http://localhost:8000.
 
-3. Frontend Setup
+#### 5. Frontend Setup
 Open a new terminal window or navigate back to the main project folder:
 cd ../frontend/feedback-website
 
-Install dependencies:
+#### 6. Install dependencies:
 npm install
 
-Start the frontend server:
+#### 7. Start the frontend server:
 npm start
 The frontend server will run by default on http://localhost:3000.
 
@@ -56,3 +52,13 @@ Business Registration: Register a new business by choosing a unique name and pas
 Login: Use the business number and password to log in and access feedback.
 Submit Feedback: Customers can search for a business by name or business number, select a rating, and leave feedback.
 View Feedback: Business owners can see all feedback submitted for their business after logging in.
+
+
+
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -m 'Add feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
